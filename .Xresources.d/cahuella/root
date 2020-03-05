@@ -1,0 +1,16 @@
+! -- Styles - Colors
+#include "/home/nico/.Xresources.d/cahuella/color"
+
+! -- Styles - Fonts
+#include "/home/nico/.Xresources.d/cahuella/typeface"
+
+! -- Styles - Theme
+#include "/home/nico/.Xresources.d/cahuella/theme"
+
+! -- Applications
+! These files map values defined above into specific app settings.
+#include "/home/nico/.Xresources.d/st-term"
+#include "/home/nico/.Xresources.d/i3-wm"
+#include "/home/nico/.Xresources.d/i3xrocks"
+#include "/home/nico/.Xresources.d/rofi"
+#include "/home/nico/.Xresources.d/gnome"
