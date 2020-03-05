@@ -1,0 +1,2 @@
+! -- This points to the root Xresource file.
+#include "/home/nico/.Xresources.d/cahuella/root"
