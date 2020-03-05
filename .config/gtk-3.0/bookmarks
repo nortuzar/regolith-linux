@@ -1,0 +1,11 @@
+ftp://eltemplomedia.local/media/externo
+file:///home/nico/Dropbox
+ftp://eltemplomedia.local/media/Respaldos
+file:///home/nico/Documents
+file:///home/nico/Music
+file:///home/nico/Pictures
+file:///home/nico/Videos
+file:///home/nico/Downloads
+sftp://192.168.1.17/home/pi Monitor .17
+smb://homeassistant/ HA
+sftp://192.168.1.10/mnt/data Valetudo .10
