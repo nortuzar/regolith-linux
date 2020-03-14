@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Except...
+!.gitignore
+!.Xresources.d/*
+!.config/regolith/*
+!.config/compton/*
+!.Xresources.regolith
+!.zshrc
+!.config/polybar/*
