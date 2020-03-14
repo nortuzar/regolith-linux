@@ -2,10 +2,8 @@
 #define typeface_bar_glyph  Source Code Pro Medium 13
 #define typeface_wm         Source Code Pro Medium 13
 #define typeface_bar        pango:Source Code Pro Medium 13, Material Design Icons 13
-#define typeface_rofi       Ubuntu 14
-!#define typeface_terminal  Meslo LG M for Powerline:pixelsize=15:antialias=true:autohint=true
-#define typeface_terminal   Menlo:pixelsize=14:antialias=true:autohint=true
-
+#define typeface_terminal   Meslo LG M DZ for Powerline:pixelsize=14:antialias=true:autohint=true
+!#define typeface_terminal  Menlo:pixelsize=14:antialias=true:autohint=true
 
 #define typeface_bar_glyph_wifi 
 #define typeface_bar_glyph_wired 
