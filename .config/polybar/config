@@ -53,11 +53,12 @@ module-margin-right = 3
 
 font-0 = SF Pro Text:pixelsize=12;0
 font-1 = NotoSans Nerd Font:style=Medium:pixelsize=11;1
-font-2 = siji:pixelsize=10;1
+font-2 = Weather Icons:size=12;1
+font-3 = Material Icons:pixelsize=12;1
 
 modules-left = i3 xwindow
 modules-center = player-mpris-tail
-modules-right = network xbacklight pulseaudio memory cpu wlan eth temperature date
+modules-right = network xbacklight pulseaudio memory cpu wlan eth temperature weather date
 
 tray-position = right
 tray-padding = 5
@@ -287,7 +288,7 @@ label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = 婢
-label-muted-foreground = #666
+label-muted-foreground = #ECEFF4
 
 ; Only applies if <ramp-volume> is used
 ramp-volume-0 = 奄
@@ -440,5 +441,12 @@ tail = true
 click-left = ~/.config/polybar/polybar-scripts/player-mpris-tail/player-mpris-tail.py previous &
 click-right = ~/.config/polybar/polybar-scripts/player-mpris-tail/player-mpris-tail.py next &
 click-middle = ~/.config/polybar/polybar-scripts/player-mpris-tail/player-mpris-tail.py play-pause &
+
+[module/weather]
+type = custom/script
+exec = /home/nico/.config/polybar/polybar-scripts/polybar-forecast/polybar-forecast-linux-x86_64
+exec-if = ping openweathermap.org -c 1
+interval = 600
+label-font = 3
 
 ; vim:ft=dosini
