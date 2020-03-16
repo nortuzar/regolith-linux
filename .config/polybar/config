@@ -58,7 +58,7 @@ font-3 = Material Icons:pixelsize=12;3
 
 modules-left = i3 xwindow
 modules-center = player-mpris-tail
-modules-right = network xbacklight pulseaudio memory cpu wlan eth temperature weather date
+modules-right = network pulseaudio memory cpu temperature weather xkeyboard date
 
 tray-position = right
 tray-padding = 5
@@ -90,7 +90,7 @@ format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-underline = ${colors.secondary}
 
-label-layout = %layout%
+label-layout = %name%
 <!-- label-layout-underline = ${colors.secondary} -->
 
 label-indicator-padding = 2
