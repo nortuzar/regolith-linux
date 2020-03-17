@@ -56,9 +56,9 @@ font-1 = NotoSans Nerd Font:style=Medium:pixelsize=11;3
 font-2 = Weather Icons:size=12;3
 font-3 = Material Icons:pixelsize=12;3
 
-modules-left = i3 xwindow
+modules-left = i3 sep xwindow
 modules-center = player-mpris-tail
-modules-right = network pulseaudio memory cpu temperature weather xkeyboard date
+modules-right = network pulseaudio memory cpu temperature weather sep xkeyboard date
 
 tray-position = right
 tray-padding = 5
@@ -437,7 +437,7 @@ margin-bottom = 5
 
 [module/player-mpris-tail]
 type = custom/script
-exec = ~/.config/polybar/polybar-scripts/player-mpris-tail/player-mpris-tail.py -f '{icon} {artist} - {title}'
+exec = ~/.config/polybar/polybar-scripts/player-mpris-tail/player-mpris-tail.py --icon-playing '契' --icon-paused '' -f '{icon} {:t30:{artist}:} - {:t20:{title}:}'
 tail = true
 click-left = ~/.config/polybar/polybar-scripts/player-mpris-tail/player-mpris-tail.py previous &
 click-right = ~/.config/polybar/polybar-scripts/player-mpris-tail/player-mpris-tail.py next &
@@ -449,5 +449,11 @@ exec = /home/nico/.config/polybar/polybar-scripts/polybar-forecast/polybar-forec
 exec-if = ping openweathermap.org -c 1
 interval = 600
 label-font = 3
+
+[module/sep]
+type = custom/text
+content = |
+content-foreground = ${colors.foreground}
+content-background = ${colors.background}
 
 ; vim:ft=dosini
