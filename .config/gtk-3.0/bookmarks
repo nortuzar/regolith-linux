@@ -1,3 +1,4 @@
+file:///home/nico/Dropbox/Bigeo%20Personal/Imagenes/Iconos%20SVG
 ftp://eltemplomedia.local/media/externo
 file:///home/nico/Dropbox
 ftp://eltemplomedia.local/media/Respaldos
@@ -8,3 +9,5 @@ file:///home/nico/Downloads
 sftp://192.168.1.17/home/pi Monitor .17
 smb://homeassistant/ HA
 sftp://192.168.1.10/mnt/data Valetudo .10
+file:///media/nico/HDD HDD
+ftp://admin@192.168.1.2:9999/ SFTP Xiaomi
